@@ -1,7 +1,7 @@
 interface Fighter {
-    attack(Fighter);
-    defend(Fighter);
-    heal(Fighter);
+    attack(f:Fighter):void;
+    defend(f:Fighter):void;
+    heal(f:Fighter):void;
 }
 
 class Ninja {

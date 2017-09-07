@@ -9,7 +9,7 @@ export class Tree{
         this.color = color
         this.age = age
     }
-    render(){
+    render():void{
         if(this.species === "spruce"){
             console.log(`🌲 ${this.height} meters ${this.color}`)
         }

@@ -5,7 +5,7 @@ export class Animal{
         this.type = type
         this.age = age
     }
-    render(){
+    render():void{
         if(this.type === "dog"){
             console.log(`🐕 ${this.type}  ${this.age} years old`)
         }
